@@ -1,0 +1,177 @@
+{
+    "productName": "集群管理",
+    "welcomeTo": "欢迎来到",
+    "mariaDbMaxScale": "MariaDB MaxScale 集群管理",
+    "welcome": "welcome",
+    "username": "用户名",
+    "password": "密码",
+    "forgotPassword": "忘记密码",
+    "details": "详情",
+    "overview": "概览",
+    "currentConnections": "当前连接 | 当前连接",
+    "currentSessions": "当前会话 | 当前会话",
+    "load": "加载",
+    "monitorDiagnostics": "监控诊断",
+    "parameters": "参数 | 参数",
+    "diagnostics": "诊断",
+    "routerDiagnostics": "路由诊断",
+    "others": "其他",
+    "dashboards": "面板 | 面板",
+    "reports": "报告 | 报告",
+    "statistics": "统计 | 统计",
+    "settings": "设置 | 设置",
+    "not": "Not {action}",
+    "users": "用户",
+    "connections": "连接 | 连接",
+    "version": "版本",
+    "404Error": "404 Error",
+    "404ErrorMessage": "Sorry, that page doesn't exist",
+
+    "loggingOut": "退出",
+    "rememberMe": "记住我",
+    "signIn": "登录",
+    "initializing": "初始化中",
+    "switchover": "Switchover",
+    "add": "新增",
+    "change": "改变",
+    "swap": "交换",
+    "close": "关闭",
+    "cancel": "取消",
+    "update": "更新",
+    "actions": "动作",
+    "delete": "删除",
+    "unlink": "取消链接",
+    "drain": "驱逐",
+    "clear": "清除",
+    "maintain": "维护",
+    "destroy": "销毁",
+    "stop": "停止",
+    "start": "启动",
+    "logout": "退出",
+    "save": "保存",
+    "enable": "启用",
+    "doneEditing": "完成编辑",
+    "implementChanges": "执行 改变?",
+    "changeEntity": "改变 {entityName}",
+    "addEntity": "增加 {entityName}",
+    "createNew": "新增",
+    "search": "搜索",
+    "thatsRight": "正确",
+    "createANew": "创建新的",
+    "uptime": "运行时间",
+    "aboutMaxScale": "关于 maxscale",
+    "resourceLabelName": "{resourceName} 标记",
+    "type": "类型",
+    "unit": "unit",
+    "description": "描述",
+    "default_value": "默认值",
+    "nameYour": "Name your {resourceName}",
+    "select": "选择 {entityName} | 选择 {entityName}",
+    "changeTheFollowingParameter": "You've changed the following {quantity} parameter: | You've changed the following {quantity} parameters:",
+    "specify": "Specify a | Specify",
+    "noEntityAvailable": "No {entityName} available",
+    "noEntity": "No {entityName}",
+    "newUpdateAvailable": "New update available!",
+
+    "servers": "服务器 | 服务器",
+    "currentServerState": "当前服务器状态",
+    "unHealthy": "不健康",
+    "healthy": "健康",
+    "warning": "警告",
+
+    "services": "服务 | 服务 ",
+    "router": "路由 | 路由",
+
+    "filters": "过滤器 | 过滤器",
+
+    "sessions": "会话 | 会话 ",
+    "current sessions": "当前会话 | 当前会话",
+    "monitors": "监控 | 监控",
+
+    "listeners": "监听器 | 监听器",
+
+    "maxScaleParameters": "MaxScale 参数",
+    "usersAndPermissions": "用户 & 权限",
+    "protocol": "协议 | 协议",
+    "module": "模块 | 模块",
+    "forceClosing": "强制关闭",
+    "errors": {
+        "requiredInput": "{inputName} is required",
+        "duplicatedValue": "{inputValue} already exists",
+        "nonInteger": "Accepts only integer",
+        "negativeNum": "Does not accept negative values",
+        "wrongCredentials": "Incorrect password or username",
+        "portSocket": "Either port or socket need to be defined",
+        "addressRequired": "address is required when using port",
+        "addressRequiredEmpty": "address should be defined only when using port",
+        "serviceUnavailable": "MaxScale is temporarily unavailable",
+        "refreshLater": "Please refresh in a few moments"
+    },
+    "confirmations": {
+        "maintain": "确认设置 {targetId} 进入维护模式?",
+        "clear": "确定清除 {targetId} 状态?",
+        "drain": "确定驱逐目标服务器 {targetId}?",
+        "unlink": "确定取消链接目标服务器  {targetId}?",
+        "delete": "确定删除目标服务器  {targetId}?",
+        "destroy": "确定销毁目标服务器  {targetId}?",
+        "stop": "确定停止目标服务器  {targetId}?",
+        "start": "确定启动目标服务器  {targetId}?"
+    },
+    "info": {
+        "serverDrain": "服务器已被驱逐",
+        "serverMaintenance": "By default setting a server into maintenance mode will cause connections to be closed only after the next request is sent. Check the box below to force all connections to the server to be closed immediately",
+        "switchover": "Master和指定的Slave切换"
+    },
+
+    "$vuetify": {
+        "badge": "Badge",
+        "close": "Close",
+        "dataIterator": {
+            "noResultsText": "No matching records found",
+            "loadingText": "Loading items..."
+        },
+        "dataTable": {
+            "itemsPerPageText": "Rows per page:",
+            "ariaLabel": {
+                "activateNone": ": Not sorted. Activate to sort ascending.",
+                "activateAscending": ": Sorted ascending. Activate to sort descending.",
+                "activateDescending": ": Sorted descending. Activate to remove sorting.",
+                "sortDescending": ": Sorted descending. Activate to remove sorting.",
+                "sortAscending": ": Sorted ascending. Activate to sort descending.",
+                "sortNone": ": Not sorted. Activate to sort ascending."
+            },
+            "sortBy": "Sort by"
+        },
+        "dataFooter": {
+            "itemsPerPageText": "Items per page:",
+            "itemsPerPageAll": "All",
+            "nextPage": "Next page",
+            "prevPage": "Previous page",
+            "firstPage": "First page",
+            "lastPage": "Last page",
+            "pageText": "{0}-{1} of {2}"
+        },
+        "dateer": {
+            "itemsSelected": "{0} selected"
+        },
+        "noDataText": "No data available",
+        "carousel": {
+            "prev": "Previous visual",
+            "next": "Next visual",
+            "ariaLabel": {
+                "delimiter": "Carousel slide {0} of {1}"
+            }
+        },
+        "calendar": {
+            "moreEvents": "{0} more"
+        },
+        "fileInput": {
+            "counter": "{0} files",
+            "counterSize": "{0} files ({1} in total)"
+        },
+        "timeer": {
+            "am": "上午",
+            "pm": "下午"
+        }
+    }
+}
